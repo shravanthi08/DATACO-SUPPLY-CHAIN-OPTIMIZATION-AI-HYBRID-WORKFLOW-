@@ -1,1 +1,77 @@
-
+Step‑by‑Step Hybrid Workflow (Notebook + AI Assistant) AI PROMPTS
+Step 1: Project Setup.
+Step 2: Data Understanding & Column Selection.
+2.1 Inspect the Dataset.
+AI Prompt :  
+"List all columns in the DataCo dataset and categorize them into: 
+(a) identifiers, (b) transactional fields, (c) supply chain metrics, (d) customer/location fields."
+2.2 Suggest Reduced Schema.
+AI Prompt :
+“Identify the most relevant columns for supply chain optimization 
+(cost, profit, shipping delays, customer location). Suggest a reduced 
+schema of 8–10 columns.”
+Step 3 — Data Cleaning.
+AI Prompt :
+“Clean the DataCoSupplyChain_Clean dataset by:
+1.Handling missing values in key columns (order_date, ship_date, cost, profit, sales, qty).
+2.Removing duplicate rows.
+3.Standardizing cost and profit units.
+4.Creating a new column for shipping_delay = ship_date – order_date.”
+Step 4: Exploratory Data Analysis (EDA).
+AI Prompt 1 (Profit by Product Category) :
+“Summarize total profit by product category and suggest a visualization that highlights
+the most profitable categories.”
+AI Prompt 2 (Shipping Delays by Country) :
+“Calculate average shipping delays by customer country and suggest a visualization to compare regions.”
+AI Prompt 3 (Cost Distribution) :
+“Analyze the distribution of cost values and suggest a visualization to detect outliers or skewness.”
+Step 5: Optimization Modeling.
+AI Prompt
+“Formulate a supply chain optimization problem using the cleaned DataCo dataset.
+Objective: minimize total shipping cost while meeting product demand and delivery deadlines.
+Constraints:
+Demand must be satisfied for each product category.
+Shipping delays must not exceed acceptable thresholds.
+Profit should remain positive.”
+Step 6: Scenario Simulation.
+AI Prompt 1 (Demand Spike Scenario) :
+“Simulate a scenario where product demand increases by 20% across all categories.
+Recalculate shipping quantities and costs under this new demand.”
+AI Prompt 2 (Supplier Delay Scenario) :
+“Simulate a scenario where shipping delays increase by 5 days in certain countries.
+Recalculate average delays and identify regions most affected.”
+AI Prompt 3 (Cost Fluctuation Scenario)
+“Simulate a scenario where supplier costs increase by 15% across all product categories.
+Recalculate shipping quantities and total cost under this new cost structure.”
+Step 7: Visualization & Dashboarding.
+AI Prompt 1 (Profit Trends Over Time) :
+“Create a line chart showing profit trends over time (monthly or quarterly) to highlight seasonal patterns.”
+AI Prompt 2 (Shipping Delay Heatmap) :
+“Create a heatmap of average shipping delays by country to visualize regional bottlenecks.”
+AI Prompt 3 (Cost vs. Sales Comparison) :
+“Create a scatter plot comparing cost vs. sales to detect efficiency patterns and outliers.”
+AI Prompt 4 (Top Customers by Sales) :
+“Create a bar chart showing the top 10 customers ranked by total sales to highlight key accounts.”
+AI Prompt 5 (Profit Margin Analysis) :
+“Create a box plot of profit margins across product categories to detect variability and outliers.”
+Step 8: Dashboard Integration (Tableau).
+AI Prompt 1 (Dashboard Layout) :
+“Design a Tableau dashboard that integrates the following visuals:
+1. Line chart of monthly profit trends
+2. Heatmap of shipping delays by country
+3. Scatter plot of cost vs. sales
+4. Bar chart of top 10 customers by sales
+5. Box plot of profit margins by product category
+Arrange them into a recruiter‑friendly layout with filters for product category and country.”
+AI Prompt 2 (Interactivity & Filters) :
+“Add interactive filters to the Tableau dashboard for:
+Product category
+Customer country
+Date range
+Ensure that all charts update dynamically when filters are applied.”
+AI Prompt 3 (Storytelling & Branding) :
+“Format the Tableau dashboard with:
+Clear titles (e.g., ‘Supply Chain Optimization Insights’)
+Consistent color palette (blue for profit, red for delays, green for sales)
+KPI cards at the top showing total profit, average delay, and total sales
+Make the dashboard recruiter‑friendly and visually polished.”
