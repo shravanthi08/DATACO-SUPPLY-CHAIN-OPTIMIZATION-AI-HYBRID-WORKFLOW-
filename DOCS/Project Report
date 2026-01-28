@@ -1,1 +1,70 @@
+# 📑 Project Report — DataCo Supply Chain Optimization Project
+
+---
+
+## 🔹 Project Overview
+The **DataCo Supply Chain Optimization Project** demonstrates an end‑to‑end workflow combining **GenAI prompts** with **Python validation** and **Tableau dashboards**.  
+The goal is to optimize supply chain operations, reduce costs, and generate recruiter‑friendly insights through a hybrid AI + human validation approach.
+
+---
+
+## 🔹 Objectives
+- Clean and preprocess the DataCo dataset for analysis.  
+- Perform **Exploratory Data Analysis (EDA)** to identify trends and inefficiencies.  
+- Build an **optimization model** to minimize shipping costs while meeting demand.  
+- Simulate **business scenarios** (demand spike, supplier delay, cost increase).  
+- Create a **Tableau dashboard** for recruiter‑friendly storytelling.  
+- Document the entire workflow for reproducibility and portfolio polish.
+
+---
+
+## 🔹 Dataset
+- Source: [DataCo Supply Chain Dataset (Kaggle)](https://www.kaggle.com/datasets/yogape/logistics-operations-database)  
+- Raw dataset: 53 columns with detailed logistics operations.  
+- Cleaned dataset: Reduced to ~10 essential fields for clarity and recruiter impact.  
+- Key derived field: `shipping_delay` (difference between order date and ship date).  
+
+---
+
+## 🔹 Methodology & Workflow
+```markdown
+1. Data Loading & Cleaning
+   - Loaded raw dataset from Kaggle.
+   - Removed duplicates and missing values.
+   - Standardized cost and profit fields.
+   - Created derived field `shipping_delay`.
+   - Saved cleaned dataset for analysis.
+
+2. Exploratory Data Analysis (EDA)
+   - Profit trends (line chart).
+   - Shipping delays by country (heatmap).
+   - Cost vs sales (scatter plot).
+   - Top customers by sales (bar chart).
+   - Profit margin distribution (box plot).
+   - Generated recruiter‑friendly insights.
+
+3. Optimization Modeling
+   - Built PuLP optimization model.
+   - Objective: minimize shipping costs.
+   - Constraints: demand fulfillment and deadlines.
+   - Output: optimized shipping quantities and total cost.
+
+4. Scenario Simulation
+   - Demand spike (+20%).
+   - Supplier delay (+5 days).
+   - Cost increase (+15%).
+   - Recalculated shipping quantities and costs.
+   - Demonstrated adaptability of the model.
+
+5. Visualization & Dashboard
+   - Exported charts and summary tables.
+   - Built Tableau dashboard with KPI cards and filters.
+   - Integrated visuals for recruiter storytelling.
+
+6. Business Insights
+   - Seasonal profit peaks identified.
+   - Shipping delays concentrated in specific regions.
+   - High‑value customers drive majority of revenue.
+   - Cost inefficiencies detected in certain categories.
+   - Optimization model adapts to demand, delay, and cost scenarios.
 
