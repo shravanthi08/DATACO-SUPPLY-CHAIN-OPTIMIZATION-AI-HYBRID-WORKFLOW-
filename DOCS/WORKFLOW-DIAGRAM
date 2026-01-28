@@ -1,1 +1,37 @@
+# 📊 Workflow Diagram — DataCo Supply Chain Optimization Project
+
+```mermaid
+flowchart TD
+
+    A[📂 Raw Data (Kaggle Dataset)] --> B[🧹 Data Loading & Cleaning]
+    B --> C[📊 Exploratory Data Analysis (EDA)]
+    C --> D[⚙️ Optimization Modeling (PuLP)]
+    D --> E[🔄 Scenario Simulation]
+    E --> F[📈 Visualization & Tableau Dashboard]
+    F --> G[💡 Business Insights & Recruiter Storytelling]
+
+    subgraph Data Preparation
+        A --> B
+    end
+
+    subgraph Analysis & Modeling
+        C --> D --> E
+    end
+
+    subgraph Presentation
+        F --> G
+    end
+
+## 🔹 Explanation of Workflow
+
+- **Raw Data** → Original Kaggle dataset (`data/raw/`).  
+- **Data Loading & Cleaning** → Cleaning notebook + `dataset_loading_and_cleaning.py`.  
+- **EDA** → Charts and descriptive analysis (`02_exploratory_data_analysis.ipynb`).  
+- **Optimization Modeling** → PuLP model (`03_optimization_modeling.ipynb`).  
+- **Scenario Simulation** → Demand spike, supplier delay, cost increase (`04_scenario_simulation.ipynb`).  
+- **Visualization & Dashboard** → Tableau integration (`05_visualization_and_dashboard_preparation.ipynb`).  
+- **Business Insights** → Recruiter‑friendly storytelling with KPIs, charts, and dashboards.  
+
+---
+
 
