@@ -1,27 +1,41 @@
-# 📦 DataCo Supply Chain Optimization Project  
-*AI‑Augmented Workflow + Python Validation + Tableau Dashboard*
+# 📦 DataCo Supply Chain Optimization Project - AI Hybrid Workflow
 
----
+**Executive Summary** : 
 
-## 🔹 Overview
-This project demonstrates an **end‑to‑end supply chain optimization workflow** using the **DataCo Logistics Operations Dataset**.  
-It combines **GenAI prompts** for workflow design with **Python validation** and **Tableau dashboards** for recruiter‑friendly storytelling.
+This project applies AI-driven analytics to optimize supply chain operations using hybrid workflows. It demonstrates the ability to integrate raw data, statistical modeling, and machine learning into actionable insights that improve efficiency, reduce costs, and enhance decision-making.
 
-**Workflow Highlights:**
-- Data Cleaning & Schema Reduction  
-- Exploratory Data Analysis (EDA)  
-- Optimization Modeling (cost minimization)  
-- Scenario Simulations (demand spike, supplier delays, cost increase)  
-- Interactive Tableau Dashboard  
-- Business Insights & Recruiter Impact  
+**Problem Statement** : 
 
----
+Supply chains face challenges such as demand variability, inventory mismanagement, and inefficiencies in logistics. The goal was to analyze DATACO's supply chain data, identify bottlenecks, and recommend strategies for optimization using AI-augmented workflows.
 
-## 🔹 Dataset
-- Source: [DataCo Supply Chain Dataset (Kaggle)](https://www.kaggle.com/datasets/yogape/logistics-operations-database)  
-- Raw dataset: 53 columns → reduced to 10 key fields for clarity.  
-- Cleaned dataset stored in `data/cleaned/DataCoSupplyChain_Cleaned.csv`.
+**Approach** : 
 
----
+**Tools Used** : Python (Pandas, Scikit-Learn, Matplotlib), Jupyter Notebooks, SQL, Excel.
 
-## 🔹 Repository Structure
+**Workflow** : 
+
+* **Data** : Raw datasets from data folder (orders, inventory, logistics).
+
+* **Scripts** : Preprocessing and feature engineering scripts for structured analysis.
+
+* **Jupyter Notebooks** : Exploratory data analysis, demand forecasting, and optimization modeling.
+
+* **Result CSV Files** : Model outputs and performance metrics stored for reproducibility.
+
+* **Results** : Summarized findings with visualizations and dashboards.
+
+* **Docs** : Reports and documentation explaining methodology and recommendations.
+
+**Results/Impact** : 
+
+* Identified inefficiencies in inventory turnover and logistics scheduling.
+
+* Built forecasting models to predict demand and optimize stock levels.
+
+* Delivered dashboards and visualizations highlighting supply chain KPIs
+
+* Recommended strategies for reducing costs and improving service levels.
+
+**Career Impact** : 
+
+This project highlighting the ability to design AI-augmented workflows for supply chain optimization, combining technical depth with business impact. It demonstrates readiness for analytics roles in operations, logistics, and consulting where data-driven decisions directly improve efficiency and profitability.
